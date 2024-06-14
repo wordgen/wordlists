@@ -1,5 +1,7 @@
 # wordgen/wordlists
 
+[![badge][badge-url]][pkg-url]
+
 This repository contains a collection of wordlists converted to Go string
 slices for easy use in various applications.
 
@@ -7,7 +9,7 @@ slices for easy use in various applications.
 
 To install the package, use `go get`:
 
-```sh
+```shell
 go get github.com/wordgen/wordlists
 ```
 
@@ -56,5 +58,7 @@ License v3.0 or later - see the [LICENSE] file for details.
 [EFFLarge]: https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt
 
 <!-- other links --->
+[badge-url]: https://pkg.go.dev/badge/github.com/wordgen/wordlists.svg
+[pkg-url]: https://pkg.go.dev/github.com/wordgen/wordlists
 [Conventional Commits]: https://conventionalcommits.org
 [LICENSE]: LICENSE
