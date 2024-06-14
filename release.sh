@@ -7,4 +7,4 @@ VERSION="$(<VERSION)"
 git tag -s "$VERSION" -m "Release $VERSION"
 git push origin "$VERSION"
 
-gh release new "$VERSION" --verify-tag --generate-notes
+gh release new "$VERSION" --verify-tag
