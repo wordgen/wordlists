@@ -7,9 +7,9 @@ fi
 
 INPUT_FILE="$1"
 OUTPUT_FILE="${INPUT_FILE%.*}.go"
-LOG_FILE="${INPUT_FILE%.*}_excluded.log"
+LOG_FILE="${INPUT_FILE%.*}_excluded.txt"
 
-> "$LOG_FILE"
+: > "$LOG_FILE"
 
 echo \
 "// Copyright (C) 2024  Daniel Kuehn <daniel@kuehn.foo>
@@ -27,13 +27,14 @@ echo \
 // You should have received a copy of the GNU Affero General Public License
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-package wordlists
+package $(basename "${INPUT_FILE%.*}")
 
-var NewWordList = []string{" > "$OUTPUT_FILE"
+var NewWordlist = []string{" > "$OUTPUT_FILE"
 
 sort "$INPUT_FILE" | uniq | while IFS= read -r line; do
 	if [[ "$line" =~ ^[a-zA-Z]+$ ]]; then
-		echo -e "\t\"$line\"," >> "$OUTPUT_FILE"
+		lowercase_line="$(echo "$line" | tr '[:upper:]' '[:lower:]')"
+		echo -e "\t\"$lowercase_line\"," >> "$OUTPUT_FILE"
 	else
 		echo "$line" >> "$LOG_FILE"
 	fi
