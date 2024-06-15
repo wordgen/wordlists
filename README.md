@@ -54,10 +54,10 @@ Ensure your commit messages and pull request titles follow the
 All files in this repository are licensed under the GNU Affero General Public
 License v3.0 or later - see the [LICENSE] file for details.
 
-<!-- wordlist links --->
+<!-- wordlist links -->
 [EFFLarge]: https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt
 
-<!-- other links --->
+<!-- other links -->
 [badge-url]: https://pkg.go.dev/badge/github.com/wordgen/wordlists.svg
 [pkg-url]: https://pkg.go.dev/github.com/wordgen/wordlists
 [Conventional Commits]: https://conventionalcommits.org
