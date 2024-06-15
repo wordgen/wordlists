@@ -4,6 +4,9 @@ import (
 	"strings"
 	"testing"
 	"unicode"
+
+	"github.com/wordgen/wordlists/eff"
+	"github.com/wordgen/wordlists/names"
 )
 
 func isValidWord(word string) bool {
@@ -17,8 +20,12 @@ func isValidWord(word string) bool {
 
 func TestWords(t *testing.T) {
 	wordLists := map[string][]string{
-		"EFFLarge": EFFLarge,
-		"Names":    Names,
+		"effLarge":    eff.Large,
+		"effShort1":   eff.Short1,
+		"effShort2":   eff.Short2,
+		"namesMixed":  names.Mixed,
+		"namesFemale": names.Female,
+		"namesMale":   names.Male,
 	}
 
 	for name, words := range wordLists {
