@@ -15,7 +15,10 @@
 
 package names
 
-// Mixed
+// Mixed is a wordlist from the Moby Project, containing the most common names
+// used in the United States and Great Britain.
+//
+// 21934 words
 //
 // Source: https://github.com/elitejake/Moby-Project/blob/main/Moby%20Words%20II/NAMES.TXT
 //

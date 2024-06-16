@@ -15,7 +15,10 @@
 
 package names
 
-// Female
+// Female is a wordlist from the Moby Project, containing common given names of
+// females in English-speaking countries.
+//
+// 4922 words
 //
 // Source: https://github.com/elitejake/Moby-Project/blob/main/Moby%20Words%20II/NAMES-F.TXT
 //

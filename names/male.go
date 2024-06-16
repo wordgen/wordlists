@@ -15,7 +15,10 @@
 
 package names
 
-// Male
+// Male is a wordlist from the Moby Project, containing common given names of
+// males in English-speaking countries.
+//
+// 3895 words
 //
 // Source: https://github.com/elitejake/Moby-Project/blob/main/Moby%20Words%20II/NAMES-M.TXT
 //

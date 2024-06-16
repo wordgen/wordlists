@@ -15,7 +15,10 @@
 
 package eff
 
-// Short2
+// Short2 is a short wordlist from the Electronic Frontier Foundation, where
+// each word has a unique three-character prefix.
+//
+// 1296 words
 //
 // Source: https://eff.org/files/2016/09/08/eff_short_wordlist_2_0.txt
 //

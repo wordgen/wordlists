@@ -15,7 +15,10 @@
 
 package eff
 
-// Large
+// Large is a large wordlist from the Electronic Frontier Foundation, designed
+// for memorability and passphrase strength.
+//
+// 7776 words
 //
 // Source: https://eff.org/files/2016/07/18/eff_large_wordlist.txt
 //

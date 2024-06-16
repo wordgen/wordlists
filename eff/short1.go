@@ -15,7 +15,10 @@
 
 package eff
 
-// Short1
+// Short1 is a short wordlist from the Electronic Frontier Foundation, designed
+// to include the 1,296 most memorable and distinct words.
+//
+// 1296 words
 //
 // Source: https://eff.org/files/2016/09/08/eff_short_wordlist_1.txt
 //
