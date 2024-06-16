@@ -15,6 +15,11 @@
 
 package eff
 
+// Large
+//
+// Source: https://eff.org/files/2016/07/18/eff_large_wordlist.txt
+//
+// Modifications: https://github.com/wordgen/wordlists/blob/main/CHANGES.md
 var Large = []string{
 	"abacus",
 	"abdomen",

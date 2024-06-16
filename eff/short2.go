@@ -15,6 +15,11 @@
 
 package eff
 
+// Short2
+//
+// Source: https://eff.org/files/2016/09/08/eff_short_wordlist_2_0.txt
+//
+// Modifications: https://github.com/wordgen/wordlists/blob/main/CHANGES.md
 var Short2 = []string{
 	"aardvark",
 	"abandoned",

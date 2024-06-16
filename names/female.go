@@ -15,6 +15,11 @@
 
 package names
 
+// Female
+//
+// Source: https://github.com/elitejake/Moby-Project/blob/main/Moby%20Words%20II/NAMES-F.TXT
+//
+// Modifications: https://github.com/wordgen/wordlists/blob/main/CHANGES.md
 var Female = []string{
 	"aaren",
 	"aarika",

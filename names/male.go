@@ -15,6 +15,11 @@
 
 package names
 
+// Male
+//
+// Source: https://github.com/elitejake/Moby-Project/blob/main/Moby%20Words%20II/NAMES-M.TXT
+//
+// Modifications: https://github.com/wordgen/wordlists/blob/main/CHANGES.md
 var Male = []string{
 	"aaron",
 	"ab",
