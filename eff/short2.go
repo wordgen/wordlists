@@ -906,6 +906,7 @@ var Short2 = []string{
 	"pledge",
 	"plotted",
 	"plug",
+	"plums",
 	"plywood",
 	"pneumonia",
 	"podiatrist",
