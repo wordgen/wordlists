@@ -795,6 +795,7 @@ var Short1 = []string{
 	"plow",
 	"pluck",
 	"plug",
+	"plums",
 	"plus",
 	"poach",
 	"pod",
