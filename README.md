@@ -4,7 +4,7 @@ This repository contains a collection of wordlists converted to Go string slices
 for easy use in various applications. All words are lowercase and contain only
 letters.
 
-The wordlists are maintained as separate Go modules within this repo.
+The wordlists are maintained as separate Go modules within the repository.
 
 ## Installation
 
