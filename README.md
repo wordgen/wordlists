@@ -33,9 +33,8 @@ func main() {
 
 ## Available Wordlists
 
-<!-- TODO
-Some wordlists have been altered from their original source.
--->
+Some wordlists have been altered from their original source. Please see the
+[CHANGES] file for more information.
 
 ### EFF Wordlists [![eff-badge]][eff-pkg]
 
@@ -62,6 +61,8 @@ Ensure your commit messages and pull request titles follow the
 All files in this repository are licensed under the GNU Affero General Public
 License v3.0 or later - see the [LICENSE] file for details.
 
+<!-- links -->
+[CHANGES]: CHANGES.md
 [Conventional Commits]: https://conventionalcommits.org
 [LICENSE]: LICENSE
 
@@ -75,6 +76,7 @@ License v3.0 or later - see the [LICENSE] file for details.
 [Large]: https://eff.org/files/2016/07/18/eff_large_wordlist.txt
 [Short1]: https://eff.org/files/2016/09/08/eff_short_wordlist_1.txt
 [Short2]: https://eff.org/files/2016/09/08/eff_short_wordlist_2_0.txt
+
 <!-- names -->
 [Mixed]: https://github.com/elitejake/Moby-Project/blob/main/Moby%20Words%20II/NAMES.TXT
 [Female]: https://github.com/elitejake/Moby-Project/blob/main/Moby%20Words%20II/NAMES-F.TXT
