@@ -10,7 +10,7 @@ select pkg_choice in "${PKGS[@]}"; do
 	case "$pkg_choice" in
 		"eff") PKG="eff"; break ;;
 		"names") PKG="names"; break ;;
-		*) echo "Invalid option."; contine ;;
+		*) echo "Invalid option."; continue ;;
 	esac
 done
 
