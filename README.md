@@ -28,7 +28,7 @@ import (
 )
 
 func main() {
-	// Print the first name from the EFF Large Wordlist
+	// Print the first word from the EFF Large Wordlist
 	fmt.Println(eff.Large[0])
 }
 ```
@@ -42,15 +42,15 @@ the <FILE> file to see altered words.
 
 ### EFF Wordlists
 
-- [Large]: A large wordlist from the Electronic Frontier Foundation. 7772
-- [Short1]: Designed to include the 1,296 most memorable and distinct words 1295
-- [Short2]: Each word has a unique three-character prefix 1295
+- [Large]: A large wordlist from the Electronic Frontier Foundation. (7776 words)
+- [Short1]: Designed to include the 1,296 most memorable and distinct words. (1296 words)
+- [Short2]: Each word has a unique three-character prefix. (1296 words)
 
 ### Names Wordlists
 
-- [Mixed]: List of the most common names used in the United States and Great Britain. 21934
-- [Female]: List of common given names of females in English-speaking countries. 4922
-- [Male]: List of common given names of males in English-speaking countries. 3895
+- [Mixed]: List of the most common names used in the United States and Great Britain. (21934 words)
+- [Female]: List of common given names of females in English-speaking countries. (4922 words)
+- [Male]: List of common given names of males in English-speaking countries. (3895 words)
 
 ## Contributing
 
