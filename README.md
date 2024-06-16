@@ -38,15 +38,15 @@ Some wordlists have been altered from their original source. Please see the
 
 ### EFF Wordlists [![eff-badge]][eff-pkg]
 
-- [Large]: A large wordlist from the Electronic Frontier Foundation. (7776 words)
-- [Short1]: Designed to include the 1,296 most memorable and distinct words. (1296 words)
+- [Large]: Focused on memorability and passphrase strength. (7776 words)
+- [Short1]: Includes the 1,296 most memorable and distinct words. (1296 words)
 - [Short2]: Each word has a unique three-character prefix. (1296 words)
 
 ### Names Wordlists [![names-badge]][names-pkg]
 
-- [Mixed]: List of the most common names used in the United States and Great Britain. (21934 words)
-- [Female]: List of common given names of females in English-speaking countries. (4922 words)
-- [Male]: List of common given names of males in English-speaking countries. (3895 words)
+- [Mixed]: Common names used in the United States and Great Britain. (21934 words)
+- [Female]: Common names of females in English-speaking countries. (4922 words)
+- [Male]: Common names of males in English-speaking countries. (3895 words)
 
 ## Contributing
 
