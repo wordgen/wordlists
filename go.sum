@@ -1,0 +1,4 @@
+github.com/wordgen/wordlists/eff v0.2.0 h1:G6o9pHk1zRJWIe7yW4OsviU93P5Ewj2btO8Tiw5txK4=
+github.com/wordgen/wordlists/eff v0.2.0/go.mod h1:hsLXGcWdZhzUQ9QXCMrXHl4euoclcCadzhQe2ERLL6w=
+github.com/wordgen/wordlists/names v0.2.0 h1:yI5M7TtD2kMvyUzLbeOg6aEAZ/bzxoaXW2bBigUzQ4E=
+github.com/wordgen/wordlists/names v0.2.0/go.mod h1:qpt/50GQaDbuQk+nXs0EuEdVcTywAcL6eDRrD4vikHY=
