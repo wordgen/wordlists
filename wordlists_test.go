@@ -1,31 +1,23 @@
 package wordlists
 
 import (
-	"strings"
+	"regexp"
 	"testing"
-	"unicode"
-
-	"github.com/wordgen/wordlists/eff"
-	"github.com/wordgen/wordlists/names"
 )
 
 func isValidWord(word string) bool {
-	for _, char := range word {
-		if !unicode.IsLetter(char) {
-			return false
-		}
-	}
-	return word == strings.ToLower(word)
+	re := regexp.MustCompile("^[a-z]+$")
+	return re.MatchString(word)
 }
 
 func TestWords(t *testing.T) {
 	wordLists := map[string][]string{
-		"effLarge":    eff.Large,
-		"effShort1":   eff.Short1,
-		"effShort2":   eff.Short2,
-		"namesMixed":  names.Mixed,
-		"namesFemale": names.Female,
-		"namesMale":   names.Male,
+		"effLarge":    EffLarge,
+		"effShort1":   EffShort1,
+		"effShort2":   EffShort2,
+		"namesMixed":  NamesMixed,
+		"namesFemale": NamesFemale,
+		"namesMale":   NamesMale,
 	}
 
 	for name, words := range wordLists {
