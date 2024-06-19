@@ -4,9 +4,16 @@ This repository contains a collection of wordlists converted to Go string slices
 for easy use in various applications. All words are lowercase and contain only
 letters.
 
-The wordlists are maintained as separate Go modules within the repository.
+The wordlists are maintained as separate Go modules within the repository, but
+you can also import them all together through the root module.
 
 ## Installation
+
+To install the root module which includes all wordlists, use:
+
+```shell
+go get github.com/wordgen/wordlists
+```
 
 To install a specific wordlist module, use `go get` with the appropriate module
 path. For example, to install the `eff` module:
@@ -17,17 +24,46 @@ go get github.com/wordgen/wordlists/eff
 
 ## Usage
 
+### Using the Root Module
+
+You can import the root module to access all wordlists:
+
+```go
+package main
+
+import (
+	"fmt"
+	"github.com/wordgen/wordlists"
+)
+
+func main() {
+	// Print the first word from the EFF Large Wordlist
+	fmt.Println(wordlists.EffLarge[0])
+
+	// Print the first word from the Names Female Wordlist
+	fmt.Println(wordlists.NamesFemale[0])
+}
+```
+
+### Using Individual Submodules
+
+If you prefer to import individual submodules:
+
 ```go
 package main
 
 import (
 	"fmt"
 	"github.com/wordgen/wordlists/eff"
+	"github.com/wordgen/wordlists/names"
 )
 
 func main() {
 	// Print the first word from the EFF Large Wordlist
 	fmt.Println(eff.Large[0])
+
+	// Print the first word from the Names Female Wordlist
+	fmt.Println(names.Female[0])
 }
 ```
 
