@@ -1,5 +1,7 @@
 # wordgen/wordlists
 
+[![wordlists-badge]][wordlists-pkg]
+
 This repository contains a collection of wordlists converted to Go string slices
 for easy use in various applications. All words are lowercase and contain only
 letters.
@@ -103,6 +105,8 @@ License v3.0 or later - see the [LICENSE] file for details.
 [LICENSE]: LICENSE
 
 <!-- badges -->
+[wordlists-badge]: https://pkg.go.dev/badge/github.com/wordgen/wordlists.svg
+[wordlists-pkg]: https://pkg.go.dev/github.com/wordgen/wordlists
 [eff-badge]: https://pkg.go.dev/badge/github.com/wordgen/wordlists/eff.svg
 [eff-pkg]: https://pkg.go.dev/github.com/wordgen/wordlists/eff
 [names-badge]: https://pkg.go.dev/badge/github.com/wordgen/wordlists/names.svg
